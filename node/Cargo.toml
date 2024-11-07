@@ -7,7 +7,17 @@ edition = "2021"
 near-account-id = "1.0.0"
 near-crypto = "0.27.0"
 near-fetch = "0.6.0"
-near-lake-framework = { git = "https://github.com/near/near-lake-framework-rs"}
+futures = "0.3.5"
+itertools = "0.10.3"
+tokio-stream = { version = "0.1" }
 serde = { version = "1.0.214", features = ["derive"] }
 serde_json = "1.0.132"
-tokio = { version = "1.28", features = ["full"] }
+tokio = { version = "1.1", features = ["full"] }
+near-primitives = "0.27.0"
+clap = { version = "4.5.20", features = ["derive", "env"] }
+tracing = "0.1.40"
+chrono = "0.4.38"
+near-lake-framework = "0.8.0-beta.3"
+near-lake-context-derive = "0.8.0-beta.3"
+near-lake-primitives = "0.8.0-beta.3"
+anyhow = "1.0.93"
